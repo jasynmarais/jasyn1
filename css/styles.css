@@ -4,10 +4,24 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+	img.avatar {
+		width: 30%;
+		border-radius: 50%;
+	  }
+}
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
 	}
+	img.avatar {
+		width: 40%;
+		border-radius: 50%;
+	  }
 }
 
 @media (min-width: 768px) {
@@ -61,14 +75,13 @@ main > .tagline {
     font-size: 2rem;
 }
 
-  .portrait {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 20%;
-  }
-
 footer {
 	font-size: small;
 	margin-top: 1.5%;
 }
+
+.imgcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
