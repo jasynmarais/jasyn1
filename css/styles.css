@@ -1,7 +1,7 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Reem Kufi', sans-serif;
 }
 
 body {
@@ -90,32 +90,28 @@ img:hover {
 	filter: grayscale(100%);
   }
 
-.button {
+.button1 {
 	background-color: #323332;
+	border: none;
+	color: #f0db4f;
+	padding: 3px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 2%;
 	margin-bottom: 2%;
+	cursor: pointer;
 	border: 2px solid #323332;
 	border-radius: 25px;
-}
+  }
 
-.button:hover {
-	background-color: #f0db4f;
-	cursor: pointer;
-}
-
-.button-text {
-	font-size: 1.5em;
-	font-weight: bold;
-}
-
-a {
-	color: #f0db4f;
-	text-decoration: none;
-}
-
-a:hover {
+.button1:hover {
 	color: #323332;
+	background-color: #f0db4f;
+	border-radius: 25px;
 }
