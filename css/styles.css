@@ -71,6 +71,7 @@ main > .intro {
 }
 
 .icons-social i {
+	margin-top: 1%;
     padding: 10px;
     font-size: 2rem;
 }
@@ -82,9 +83,12 @@ footer {
 
 .imgcontainer {
     margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
+    margin-right: auto
   }
+
+img.avatar {
+	border-radius: 25px;
+}
 
 img:hover {
 	filter: grayscale(100%);
@@ -114,4 +118,14 @@ img:hover {
 	color: #323332;
 	background-color: #f0db4f;
 	border-radius: 25px;
+}
+
+/* Theme */
+
+.icons-social a {
+	color: #323330;
+}
+
+.icons-social a:hover {
+	color: black;
 }
