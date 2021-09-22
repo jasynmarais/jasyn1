@@ -1,3 +1,3 @@
-# [jasyn.co.za](https://jasyn.co.za/)
+# Readme
 
-- [Github Pages](https://jasynmarais.github.io/jasyn1/)
+- [Github Pages](https://jasyn.co.za/jasyn1/)
